@@ -1,0 +1,97 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling for the header */
+header {
+    background-color: #blue;
+    color: white;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Styling for the hero section */
+.hero {
+    background-image: url('hero-background.jpg');
+    background-size: cover;
+    text-align: center;
+    padding: 5rem 0;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6f61;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/* Styling for the featured projects section */
+.featured {
+    text-align: center;
+    padding: 3rem 0;
+}
+
+.featured h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.project {
+    display: inline-block;
+    margin: 0 20px;
+    text-align: left;
+}
+
+.project img {
+    max-width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Styling for the footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+body {
+  background-image: url(background.gif);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
+}
+h2 {
+  color: maroon;
+}
+h1 {
+  color: maroon;
+  font-family: Playfair Display;
+}

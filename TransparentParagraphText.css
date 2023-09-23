@@ -1,0 +1,35 @@
+p {
+  width: 900px;
+background: red;
+border: 20px double transparent;
+font-size: 20px;
+text-align: justify;
+}
+style1
+{
+width: 900px;
+background: red;
+border: 20px double transparent;
+font-size: 20px;
+text-align: justify;
+}
+.style2
+{
+width: 900px;
+background:aqua;
+border: 20px double transparent;
+font-size: 20px;
+text-align: justify;
+}
+.style3
+{
+width: 900px;
+background: fuchsia;
+border: 20px double transparent;
+font-size: 20px;
+text-align: justify;
+}
+body
+{
+background: url(Nature.jpg);
+}
